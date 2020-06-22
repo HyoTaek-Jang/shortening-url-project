@@ -18,6 +18,7 @@ body{
     display: flex;
 }
 
+
 /* layouts */
 
 .l_container{
@@ -27,6 +28,12 @@ body{
 .l_wrapper{
     width: 1280px;
     margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.l_contentBox{
+    height: 650px;
 }
 
 /* component */
@@ -66,6 +73,37 @@ body{
 
 .introduction{
     background-color: #666666;
+}
+
+.intro-contents{
+    width: 700px;
+}
+
+.intro-contents-main{
+    height: 400px;
+    margin: 75px 0;
+}
+
+.intro-contents-main p{
+    line-height: 1.3em;
+    font-weight: 100;
+}
+
+.intro-contents-title{
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+
+.intro-contents-button{
+    display: block;
+    margin: 15px 0;
+}
+
+.intro-img{
+    position: absolute;
+    right: 100px;
+    top: 100px;
 }
 
 .shortingBox{
