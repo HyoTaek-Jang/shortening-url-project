@@ -1,0 +1,85 @@
+/* Typography */
+
+@font-face{
+    font-family: Poppins;
+    src: url(../font/Poppins/Poppins-Light.ttf)format('truetype');
+}
+
+body{
+    font-family: Poppins;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* common */
+
+.flex{
+    display: flex;
+}
+
+/* layouts */
+
+.l_container{
+    
+}
+
+.l_wrapper{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* component */
+
+.header{
+    background-color: #aaaaaa;
+    margin-top: 30px;
+}
+
+.header-title{
+    background-color: rgb(161, 91, 161);
+    font-size: 36px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.header-nav{
+    background-color: tomato;
+    justify-content: space-between;
+    width: 100%;
+    line-height: 36px;
+}
+
+.header-nav li{
+    margin: 0 35px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-nav-left{
+    background-color: violet;
+}
+
+.header-nav-right{
+    background-color: rgb(155, 26, 26);
+}
+
+.introduction{
+    background-color: #666666;
+}
+
+.shortingBox{
+    background-color: #111111;
+}
+
+.content{
+    background-color: #333;
+}
+
+.guiding{
+    background-color: aquamarine;
+}
+
+.footer{
+    background-color: bisque;
+}
