@@ -18,6 +18,12 @@ body{
     display: flex;
 }
 
+.clearfix::before{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
 
 /* layouts */
 
@@ -28,8 +34,6 @@ body{
 .l_wrapper{
     width: 1280px;
     margin: 0 auto;
-    overflow: hidden;
-
 }
 
 .l_contentBox{
@@ -39,6 +43,7 @@ body{
 
 .l_shortingWrapper{
     width: 980px;
+    height: 600px;
     margin-top: -75px;
 }
 
@@ -122,7 +127,7 @@ body{
 }
 
 .shortingBox{
-    background-color: #dddddd;
+    background-color: #F0F1F7;
 }
 
 .short-inputBox{
@@ -158,18 +163,46 @@ body{
 }
 
 .short-logBox{
-
+    font-weight: 700;
 }
 
 .short-logBox ul{
-    background-color: tomato;
 }
 
 .short-logBox-log{
     margin-top: 20px;
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
     height: 70px;
     border-radius: 10px;
+}
+
+.short-logBox-log-urlBox{
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 10px 15px 40px;
+    font-size: 18px;
+    line-height: 40px;
+
+}
+
+.log-urlBox-before{
+    color: black;
+}
+
+.log-urlBox-after{
+    color: #31CDD2;
+}
+
+.short-logBox-log-button{
+    width: 140px;
+    height: 35px;
+    margin: 17.5px 20px;
+    background-color: #31CDD2;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 17px;
 }
 
 
