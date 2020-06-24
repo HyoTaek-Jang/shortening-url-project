@@ -24,6 +24,12 @@ body{
     clear: both;
 }
 
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
 
 /* layouts */
 
@@ -209,6 +215,50 @@ body{
 
 .content{
     background-color: #333;
+}
+
+.content-title{
+    margin: auto;
+    width: 500px;
+}
+
+.content-title h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 20px 0;
+
+}
+
+.content-title p{
+    text-align: center;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.content-contentBox{
+    margin: 60px 0;
+    height: 500px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.content-contentBox-detail{
+    height: 300px;
+    width: 400px;
+}
+
+.detail-icon{
+
+}
+
+.detail-title{
+
+}
+
+.content-contentBox-detail p{
+
 }
 
 .guiding{
