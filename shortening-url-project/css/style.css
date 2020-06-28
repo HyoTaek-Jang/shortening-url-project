@@ -7,9 +7,10 @@
 
 body{
     font-family: Poppins;
-    color: white;
+    color: black;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 600;
+    background-color: white;
 }
 
 /* common */
@@ -56,19 +57,16 @@ body{
 /* component */
 
 .header{
-    background-color: #aaaaaa;
     margin-top: 30px;
 }
 
 .header-title{
-    background-color: rgb(161, 91, 161);
     font-size: 36px;
     font-weight: 700;
     margin-right: 20px;
 }
 
 .header-nav{
-    background-color: tomato;
     justify-content: space-between;
     width: 100%;
     line-height: 36px;
@@ -81,15 +79,12 @@ body{
 }
 
 .header-nav-left{
-    background-color: violet;
 }
 
 .header-nav-right{
-    background-color: rgb(155, 26, 26);
 }
 
 .introduction{
-    background-color: #8b8b8b;
 }
 
 .intro-contents{
@@ -264,7 +259,7 @@ body{
     padding: 80px 20px 30px 20px;
 }
 
-.content-contentBox:nth-child(1){
+/* .content-contentBox:nth-child(1){
     top: 0px;
 }
 
@@ -273,7 +268,8 @@ body{
 
 }.content-contentBox:nth-child(3){
     bottom: 0%;
-}
+} */
+
 .detail-icon{
     display: block;
     width: 100px;
