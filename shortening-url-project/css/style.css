@@ -32,6 +32,8 @@ body{
 }
 
 
+
+
 /* layouts */
 
 .l_container{
@@ -190,7 +192,10 @@ body{
     box-sizing: border-box;
     border-radius: 7px;
     border: none;
+    font-size: 19px;
+    padding: 0 30px;
 }
+
 
 .short-form-input:focus{
     outline: none;
@@ -219,6 +224,16 @@ body{
 
 }
 
+.alert{
+    border: 3px solid rgb(184, 56, 34);
+    border-radius: 7px;
+
+}
+
+.alert::placeholder{
+    color: rgb(184, 56, 34);
+
+}
 
 
 .short-form-alert{
@@ -272,7 +287,6 @@ body{
 
 
 .content{
-    background-color: #333;
 }
 
 .content-title{
