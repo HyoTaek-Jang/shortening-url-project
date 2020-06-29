@@ -69,13 +69,36 @@ body{
 .header-nav{
     justify-content: space-between;
     width: 100%;
-    line-height: 36px;
+    line-height: 46px;
 }
 
 .header-nav li{
     margin: 0 35px;
     display: inline-block;
     vertical-align: middle;
+    color: gray;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.header-nav li:hover{
+    color: black;
+}
+
+.nav-signUp{
+    background-color: #9DE2E2;
+    box-sizing: border-box;
+    padding: 5px 25px;
+    border-radius: 23px;
+    line-height: 36px;
+
+}
+
+.nav-signUp a{
+    color: white;
+}
+
+.nav-signUp:hover{
+    background-color: #2BD1CE;
 }
 
 .header-nav-left{
@@ -100,18 +123,33 @@ body{
 
 .intro-contents-main p{
     line-height: 1.3em;
-    font-weight: 100;
+    font-weight: 500;
+    color: gray;
+    font-size: 22px;
 }
 
 .intro-contents-title{
     font-size: 68px;
-    font-weight: 800;
+    font-weight: 900;
     line-height: 1.2em;
 }
 
 .intro-contents-button{
     display: block;
-    margin: 15px 0;
+    margin: 50px 0;
+    box-sizing: border-box;
+    padding: 15px 30px;
+    background-color: #9DE2E2;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 25px;
+    color: white;
+    transition: background-color 0.3s;
+
+}
+
+.intro-contents-button:hover{
+    background-color: #2BD1CE;
 }
 
 .intro-img{
@@ -150,13 +188,38 @@ body{
     height: 60px;
     width: 670px;
     box-sizing: border-box;
+    border-radius: 7px;
+    border: none;
+}
+
+.short-form-input:focus{
+    outline: none;
 }
 
 .short-form-button{
     height: 60px;
     width:  160px;
     margin-left: 30px;
+    border-radius: 7px;
+    border: none;
+    transition: background-color 0.3s;
+    background-color: #9DE2E2;
+    font-size: 20px;
+    color: white;
+
 }
+
+.short-form-button:hover{
+    background-color: #2BD1CE;
+
+}
+
+.short-form-button:focus{
+    outline: none;
+
+}
+
+
 
 .short-form-alert{
     margin-top: 10px;
