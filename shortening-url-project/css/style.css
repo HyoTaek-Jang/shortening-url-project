@@ -52,7 +52,7 @@ body{
 
 .l_shortingWrapper{
     width: 980px;
-    height: 600px;
+    height: 550px;
     margin-top: -75px;
 }
 
@@ -238,7 +238,11 @@ body{
 
 .short-form-alert{
     margin-top: 10px;
-    margin-left: 60px;
+    margin-left: 70px;
+    color: rgb(255, 38, 0);
+    font-weight: 300;
+
+    
 }
 
 .short-logBox{
@@ -277,16 +281,28 @@ body{
     width: 140px;
     height: 35px;
     margin: 17.5px 20px;
-    background-color: #31CDD2;
+    background-color: #9DE2E2;
     border-radius: 5px;
     border: none;
     color: white;
     font-size: 17px;
+    transition: background-color 0.5s;
+    font-weight: 700;
+}
+.short-logBox-log-button:hover{
+    background-color: #31CDD2;
+    
+}
+
+.log-copied{
+    background-color: #3A3053;
 }
 
 
 
+
 .content{
+    background-color: #F0F1F7;
 }
 
 .content-title{
@@ -297,7 +313,7 @@ body{
 .content-title h1{
     text-align: center;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 900;
     margin: 20px 0;
 
 }
@@ -306,6 +322,7 @@ body{
     text-align: center;
     font-size: 22px;
     line-height: 32px;
+    color: gray;
 }
 
 .content-contentBox{
@@ -335,16 +352,16 @@ body{
     box-sizing: border-box;
     padding: 80px 20px 30px 20px;
 }
-
-/* .content-contentBox:nth-child(1){
-    top: 0px;
+/* 
+.content-contentBox:nth-child(1){
+    margin-top: ;
 }
 
 .content-contentBox:nth-child(2){
-    top: 33%;
+    margin-top: ;
 
 }.content-contentBox:nth-child(3){
-    bottom: 0%;
+    margin-top: ;
 } */
 
 .detail-icon{
