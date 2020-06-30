@@ -347,45 +347,100 @@ body{
 .content-contentBox-detail{
     height: 300px;
     width: 400px;
-    background-color: violet;
+    background-color: white;
+    border-radius: 15px;
     position: relative;
     box-sizing: border-box;
     padding: 80px 20px 30px 20px;
 }
-/* 
-.content-contentBox:nth-child(1){
-    margin-top: ;
+
+#detail_1{
+
 }
 
-.content-contentBox:nth-child(2){
-    margin-top: ;
+#detail_2{
+    margin-top: 100px;
+}
 
-}.content-contentBox:nth-child(3){
-    margin-top: ;
-} */
+#detail_3{
+    margin-top: 200px;
+}
 
 .detail-icon{
     display: block;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: yellow;
+    background-color: #3A3053;
     left: 30px;
     top: -50px;
     position: absolute;
+    background-position: center;
+    background-size: 60px;
+    background-repeat: no-repeat;
+}
+
+#detail-icon_1{
+    background-image: url(../images/icon-brand-recognition.svg);
+}
+
+#detail-icon_2{
+    background-image: url(../images/icon-detailed-records.svg);
+}
+
+#detail-icon_3{
+    background-image: url(../images/icon-fully-customizable.svg);
 }
 
 .detail-title{
-
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
 .content-contentBox-detail p{
-
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .guiding{
-    background-color: aquamarine;
+    background-color: #3A3053;
+    background-image: url(../images/bg-boost-desktop.svg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.guiding-wording{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 0;
+    font-weight: 800;
+}
+
+.guiding-getStart{
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #9BE3E3;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.guiding-getStart:focus{
+    outline: none;
+}
+
+
 
 .footer{
     background-color: bisque;
