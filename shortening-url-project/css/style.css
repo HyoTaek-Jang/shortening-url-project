@@ -443,5 +443,92 @@ body{
 
 
 .footer{
-    background-color: bisque;
+    padding: 50px;
+    background-color: #232128;
+    color: white;
+}
+
+.footerFlex{
+    justify-content: space-between;
+}
+
+
+.footer-title{
+    font-size: 40px;
+    margin-right:150px;
+}
+
+.footer-nav{
+}
+
+.footer-nav:hover{
+}
+
+.footer-nav ul{
+    margin: 0 50px;
+}
+
+
+.footer-nav li{
+    margin-bottom: 15px;
+    
+}
+
+.footer-nav h2{
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+
+.footer-nav a{
+    font-weight: 500;
+    color: #B7B5BA;
+    transition: color 0.5s;
+    
+}
+
+.footer-nav a:hover{
+    color: #56D1D3;
+
+}
+
+.footer-nav-features{
+    
+}
+
+.footer-nav-resource{
+
+}
+
+.footer-nav-company{
+
+}
+
+.footer-iconNav{
+}
+
+.footer-iconNav a{
+    margin-left: 30px;
+    background-position: center;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    text-indent: -99999px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+#iconNav-1{
+    background-image: url(../images/icon-facebook.svg);
+}
+
+#iconNav-2{
+    background-image: url(../images/icon-instagram.svg);
+}
+
+#iconNav-3{
+    background-image: url(../images/icon-pinterest.svg);
+}
+
+#iconNav-4{
+    background-image: url(../images/icon-twitter.svg);
 }
