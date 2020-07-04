@@ -245,6 +245,10 @@ body{
     
 }
 
+.short-form-alert-mediaquery{
+    display: none;
+}
+
 .short-logBox{
     font-weight: 700;
 }
@@ -531,8 +535,4 @@ body{
 
 #iconNav-4{
     background-image: url(../images/icon-twitter.svg);
-}
-
-@media screen and (max-width: 765px){
-
 }
