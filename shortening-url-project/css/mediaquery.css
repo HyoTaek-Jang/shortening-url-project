@@ -1,0 +1,98 @@
+@media screen and (max-width : 375px){
+
+    body{
+    }
+
+    .l_wrapper{
+        width: 375px;
+    }
+    
+    .l_contentBox{
+        height: auto;
+    }
+
+    .flex{
+        display: block;
+    }
+
+    .header-title{
+        margin-right: 0;
+        margin-left: 20px;
+    }
+
+    .header-nav{
+        display: none;
+    }
+
+    .intro-img{
+        position: relative;
+        left:-50px;
+        top: 30px;
+    }
+
+    .intro-contents{
+        width: 375px;
+    }
+
+    .intro-contents-main{
+        padding-right: 0;
+        height: 400px;
+    }
+
+    .intro-contents-main p{
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .intro-contents-title{
+        font-size: 38px;
+        font-weight: 900;
+        line-height: 1.2em;
+        text-align: center;
+    }
+
+    .intro-contents-button{
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+        margin-bottom: 75px;
+        width: 200px;
+    }
+
+    .l_shortingWrapper{
+        
+    }
+
+    .short-inputBox{
+        height: 205px;
+        width: 330px;
+        margin: 0 auto;
+    }
+
+    .short-form{
+        padding-top: 25px;
+    }
+
+    .short-form-input{
+        width: 280px;
+        margin: 0  auto ;
+        display: block;        
+    
+    }
+
+    .short-form-button{
+        display: block;
+        margin: 10px auto;
+        width: 280px;
+    }
+
+    .short-form-alert-mediaquery{
+        display: block;
+        margin-left: 30px;
+    }
+
+    .short-form-alert-screen{
+        display: none;
+    }
+
+}
