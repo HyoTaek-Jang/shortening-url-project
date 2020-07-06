@@ -60,7 +60,7 @@
     }
 
     .l_shortingWrapper{
-        
+        height: auto;
     }
 
     .short-inputBox{
@@ -93,6 +93,27 @@
 
     .short-form-alert-screen{
         display: none;
+    }
+
+    .short-logBox-log{
+        height: auto;
+        width: 95%;
+        margin: 10px auto;
+    }
+    
+    .short-logBox-log-urlBox{
+        line-height: 25px;
+        padding: 15px;
+    }
+
+    .log-urlBox-before{
+        margin-bottom: 15px;
+    }
+
+    .short-logBox-log-button{
+        width: 95%;
+        margin: 10px auto;
+        display: block;
     }
 
 }
