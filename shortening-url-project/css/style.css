@@ -342,7 +342,6 @@ body{
     width: 1280px;
     height: 15px;
     top: 50%;
-    /* translate: (0, -7.5px); */
     background-color: turquoise;
     position: absolute;
     z-index: 0;
