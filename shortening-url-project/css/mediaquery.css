@@ -26,8 +26,9 @@
 
     .intro-img{
         position: relative;
-        left:-50px;
-        top: 30px;
+        text-align: center;
+        overflow: hidden;
+        width: 140%;
     }
 
     .intro-contents{
